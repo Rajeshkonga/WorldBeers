@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		27F050CC2812CC270032D78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050CB2812CC270032D78D /* AppDelegate.swift */; };
 		27F050CE2812CC270032D78D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050CD2812CC270032D78D /* SceneDelegate.swift */; };
-		27F050D02812CC270032D78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050CF2812CC270032D78D /* ViewController.swift */; };
-		27F050D32812CC270032D78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F050D12812CC270032D78D /* Main.storyboard */; };
 		27F050D52812CC290032D78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F050D42812CC290032D78D /* Assets.xcassets */; };
-		27F050D82812CC290032D78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F050D62812CC290032D78D /* LaunchScreen.storyboard */; };
+		27F050E02812CC680032D78D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 27F050DF2812CC680032D78D /* .swiftlint.yml */; };
+		27F050EA2812CC8E0032D78D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050E42812CC8E0032D78D /* HTTPMethod.swift */; };
+		27F050EB2812CC8E0032D78D /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050E52812CC8E0032D78D /* HTTPError.swift */; };
+		27F050EC2812CC8E0032D78D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050E62812CC8E0032D78D /* ApiManager.swift */; };
+		27F050ED2812CC8E0032D78D /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050E72812CC8E0032D78D /* ServiceManager.swift */; };
+		27F050EE2812CC8E0032D78D /* BeerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050E92812CC8E0032D78D /* BeerResponse.swift */; };
+		27F050F62812CCB40032D78D /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F050F02812CCB40032D78D /* BeerTableViewCell.xib */; };
+		27F050F72812CCB40032D78D /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050F12812CCB40032D78D /* BeerTableViewCell.swift */; };
+		27F050F82812CCB40032D78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F050F22812CCB40032D78D /* LaunchScreen.storyboard */; };
+		27F050F92812CCB40032D78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F050F42812CCB40032D78D /* Main.storyboard */; };
+		27F050FD2812CCBF0032D78D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050FB2812CCBF0032D78D /* DetailViewController.swift */; };
+		27F050FE2812CCBF0032D78D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F050FC2812CCBF0032D78D /* HomeViewController.swift */; };
+		27F051022812CCD70032D78D /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F051002812CCD70032D78D /* BeerViewModel.swift */; };
+		27F051032812CCD70032D78D /* BeersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F051012812CCD70032D78D /* BeersViewModel.swift */; };
+		27F0510E2812CCEB0032D78D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F051062812CCEB0032D78D /* Constants.swift */; };
+		27F0510F2812CCEB0032D78D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F051072812CCEB0032D78D /* Loader.swift */; };
+		27F051102812CCEB0032D78D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F051092812CCEB0032D78D /* UIView+Extension.swift */; };
+		27F051112812CCEB0032D78D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F0510A2812CCEB0032D78D /* UITableView+Extension.swift */; };
+		27F051122812CCEB0032D78D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F0510C2812CCEB0032D78D /* BaseViewController.swift */; };
+		27F051132812CCEB0032D78D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F0510D2812CCEB0032D78D /* BaseViewModel.swift */; };
+		C3AB77A3004C2F4836922391 /* Pods_WorldBeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415F17C55151CB441C29D47C /* Pods_WorldBeers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27F050C82812CC270032D78D /* WorldBeers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBeers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F050CB2812CC270032D78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F050CD2812CC270032D78D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27F050CF2812CC270032D78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27F050D22812CC270032D78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27F050D42812CC290032D78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27F050D72812CC290032D78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F050D92812CC290032D78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F050DF2812CC680032D78D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		27F050E42812CC8E0032D78D /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		27F050E52812CC8E0032D78D /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		27F050E62812CC8E0032D78D /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		27F050E72812CC8E0032D78D /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		27F050E92812CC8E0032D78D /* BeerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerResponse.swift; sourceTree = "<group>"; };
+		27F050F02812CCB40032D78D /* BeerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
+		27F050F12812CCB40032D78D /* BeerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
+		27F050F32812CCB40032D78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F050F52812CCB40032D78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F050FB2812CCBF0032D78D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27F050FC2812CCBF0032D78D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		27F051002812CCD70032D78D /* BeerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
+		27F051012812CCD70032D78D /* BeersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersViewModel.swift; sourceTree = "<group>"; };
+		27F051062812CCEB0032D78D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27F051072812CCEB0032D78D /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		27F051092812CCEB0032D78D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		27F0510A2812CCEB0032D78D /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		27F0510C2812CCEB0032D78D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27F0510D2812CCEB0032D78D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2B52C8F13AB804D984ED1516 /* Pods-WorldBeers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers.debug.xcconfig"; path = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.debug.xcconfig"; sourceTree = "<group>"; };
+		415F17C55151CB441C29D47C /* Pods_WorldBeers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldBeers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74628D8A87B4ADAAE287341A /* Pods-WorldBeers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers.release.xcconfig"; path = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AB77A3004C2F4836922391 /* Pods_WorldBeers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				27F050CA2812CC270032D78D /* WorldBeers */,
 				27F050C92812CC270032D78D /* Products */,
+				77CFB87E7FC053A7310B7C32 /* Pods */,
+				B90A9DA853005C8FF9BFF64B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,137 @@
 		27F050CA2812CC270032D78D /* WorldBeers */ = {
 			isa = PBXGroup;
 			children = (
+				27F050DF2812CC680032D78D /* .swiftlint.yml */,
+				27F051042812CCEB0032D78D /* Reusable */,
+				27F050FF2812CCD70032D78D /* ViewModels */,
+				27F050FA2812CCBF0032D78D /* ViewControllers */,
+				27F050EF2812CCB40032D78D /* Views */,
+				27F050E12812CC8E0032D78D /* Services */,
 				27F050CB2812CC270032D78D /* AppDelegate.swift */,
 				27F050CD2812CC270032D78D /* SceneDelegate.swift */,
-				27F050CF2812CC270032D78D /* ViewController.swift */,
-				27F050D12812CC270032D78D /* Main.storyboard */,
 				27F050D42812CC290032D78D /* Assets.xcassets */,
-				27F050D62812CC290032D78D /* LaunchScreen.storyboard */,
 				27F050D92812CC290032D78D /* Info.plist */,
 			);
 			path = WorldBeers;
+			sourceTree = "<group>";
+		};
+		27F050E12812CC8E0032D78D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27F050E22812CC8E0032D78D /* Managers */,
+				27F050E82812CC8E0032D78D /* Models */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27F050E22812CC8E0032D78D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				27F050E32812CC8E0032D78D /* HttpMethods */,
+				27F050E62812CC8E0032D78D /* ApiManager.swift */,
+				27F050E72812CC8E0032D78D /* ServiceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		27F050E32812CC8E0032D78D /* HttpMethods */ = {
+			isa = PBXGroup;
+			children = (
+				27F050E42812CC8E0032D78D /* HTTPMethod.swift */,
+				27F050E52812CC8E0032D78D /* HTTPError.swift */,
+			);
+			path = HttpMethods;
+			sourceTree = "<group>";
+		};
+		27F050E82812CC8E0032D78D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27F050E92812CC8E0032D78D /* BeerResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27F050EF2812CCB40032D78D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27F050F02812CCB40032D78D /* BeerTableViewCell.xib */,
+				27F050F12812CCB40032D78D /* BeerTableViewCell.swift */,
+				27F050F22812CCB40032D78D /* LaunchScreen.storyboard */,
+				27F050F42812CCB40032D78D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27F050FA2812CCBF0032D78D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27F050FB2812CCBF0032D78D /* DetailViewController.swift */,
+				27F050FC2812CCBF0032D78D /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27F050FF2812CCD70032D78D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				27F051002812CCD70032D78D /* BeerViewModel.swift */,
+				27F051012812CCD70032D78D /* BeersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		27F051042812CCEB0032D78D /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				27F051052812CCEB0032D78D /* Utils */,
+				27F051082812CCEB0032D78D /* Extensions */,
+				27F0510B2812CCEB0032D78D /* Base */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		27F051052812CCEB0032D78D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27F051062812CCEB0032D78D /* Constants.swift */,
+				27F051072812CCEB0032D78D /* Loader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		27F051082812CCEB0032D78D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27F051092812CCEB0032D78D /* UIView+Extension.swift */,
+				27F0510A2812CCEB0032D78D /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27F0510B2812CCEB0032D78D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				27F0510C2812CCEB0032D78D /* BaseViewController.swift */,
+				27F0510D2812CCEB0032D78D /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		77CFB87E7FC053A7310B7C32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B52C8F13AB804D984ED1516 /* Pods-WorldBeers.debug.xcconfig */,
+				74628D8A87B4ADAAE287341A /* Pods-WorldBeers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B90A9DA853005C8FF9BFF64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415F17C55151CB441C29D47C /* Pods_WorldBeers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F050DC2812CC290032D78D /* Build configuration list for PBXNativeTarget "WorldBeers" */;
 			buildPhases = (
+				08BF8B40565DED3C61522D51 /* [CP] Check Pods Manifest.lock */,
 				27F050C42812CC270032D78D /* Sources */,
 				27F050C52812CC270032D78D /* Frameworks */,
 				27F050C62812CC270032D78D /* Resources */,
+				48635380BDB40375FDEBAC8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,42 +289,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F050D82812CC290032D78D /* LaunchScreen.storyboard in Resources */,
+				27F050F92812CCB40032D78D /* Main.storyboard in Resources */,
+				27F050E02812CC680032D78D /* .swiftlint.yml in Resources */,
+				27F050F62812CCB40032D78D /* BeerTableViewCell.xib in Resources */,
+				27F050F82812CCB40032D78D /* LaunchScreen.storyboard in Resources */,
 				27F050D52812CC290032D78D /* Assets.xcassets in Resources */,
-				27F050D32812CC270032D78D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BF8B40565DED3C61522D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldBeers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48635380BDB40375FDEBAC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27F050C42812CC270032D78D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F050D02812CC270032D78D /* ViewController.swift in Sources */,
+				27F051022812CCD70032D78D /* BeerViewModel.swift in Sources */,
+				27F050EA2812CC8E0032D78D /* HTTPMethod.swift in Sources */,
+				27F051102812CCEB0032D78D /* UIView+Extension.swift in Sources */,
+				27F050F72812CCB40032D78D /* BeerTableViewCell.swift in Sources */,
+				27F051122812CCEB0032D78D /* BaseViewController.swift in Sources */,
+				27F051032812CCD70032D78D /* BeersViewModel.swift in Sources */,
+				27F051112812CCEB0032D78D /* UITableView+Extension.swift in Sources */,
+				27F050EE2812CC8E0032D78D /* BeerResponse.swift in Sources */,
 				27F050CC2812CC270032D78D /* AppDelegate.swift in Sources */,
+				27F050EB2812CC8E0032D78D /* HTTPError.swift in Sources */,
+				27F050EC2812CC8E0032D78D /* ApiManager.swift in Sources */,
+				27F050FE2812CCBF0032D78D /* HomeViewController.swift in Sources */,
+				27F050FD2812CCBF0032D78D /* DetailViewController.swift in Sources */,
+				27F051132812CCEB0032D78D /* BaseViewModel.swift in Sources */,
+				27F0510E2812CCEB0032D78D /* Constants.swift in Sources */,
+				27F050ED2812CC8E0032D78D /* ServiceManager.swift in Sources */,
 				27F050CE2812CC270032D78D /* SceneDelegate.swift in Sources */,
+				27F0510F2812CCEB0032D78D /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27F050D12812CC270032D78D /* Main.storyboard */ = {
+		27F050F22812CCB40032D78D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27F050D22812CC270032D78D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		27F050D62812CC290032D78D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27F050D72812CC290032D78D /* Base */,
+				27F050F32812CCB40032D78D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27F050F42812CCB40032D78D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F050F52812CCB40032D78D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,12 +507,14 @@
 		};
 		27F050DD2812CC290032D78D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B52C8F13AB804D984ED1516 /* Pods-WorldBeers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XAK752DW99;
 				INFOPLIST_FILE = WorldBeers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +528,14 @@
 		};
 		27F050DE2812CC290032D78D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74628D8A87B4ADAAE287341A /* Pods-WorldBeers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XAK752DW99;
 				INFOPLIST_FILE = WorldBeers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
